@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4_1094_PROFIR_VICTOR.css">
+    <title>Photo Editor</title>
+</head>
+<body>
+    <input type="file" id="fileInput" />
+    <canvas id="canvas"></canvas>
+    <div id="tools">
+        <button id="saveButton">Salveaza</button>
+        <button id="applyEffectButton">Aplica Efect</button>
+        <button id="deleteButton">Sterge Selectia</button>
+        <div id="scaleTools">
+            <input type="number" id="scaleWidth" placeholder="Latime (px)" />
+            <input type="number" id="scaleHeight" placeholder="Inaltime (px)" />
+            <button id="scaleButton">Scaleaza imaginea</button>
+        </div>
+        <input type="text" id="textInput" placeholder="Text">
+        <input type="number" id="textSizeInput" placeholder="Dimensiune text">
+        <input type="color" id="textColorInput" value="#000000">
+        <label for="textXInput">Coordonata X:</label>
+        <input type="number" id="textXInput" placeholder="Coordonata X">
+
+        <label for="textYInput">Coordonata Y:</label>
+        <input type="number" id="textYInput" placeholder="Coordonata Y">
+        <button id="addTextButton">Adauga Text</button>
+    </div>
+
+    <script src="4_1094_PROFIR_VICTOR.js"></script>
+</body>
+</html>
